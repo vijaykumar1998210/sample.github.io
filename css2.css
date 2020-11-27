@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav{
+margin: 0px;
+}
+.main-menu{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  padding: 1.5rem 2rem;
+  height:9vh;
+
+}
+.logoname{
+  margin-top: -10px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+.logoname a{
+  text-decoration: none;
+  color:black;
+font-weight: bold;
+font-size: 23px;
+
+}
+.details{
+display: flex;
+flex-wrap: wrap;
+font-size: 15px;
+font-family: 'Abel', sans-serif;
+}
+.details a{
+  padding: 0px 15px;
+  text-transform:capitalize;
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+.logos{
+
+}
+.logos a{
+  padding: 0px 3px;
+  color: black;
+}
+main{
+  background-image:url(images/Background-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color:white;
+}
+.content{
+  padding-top:10rem;
+  line-height:1.5;
+}
+.content h3{
+  margin-left: 9rem;
+  font-family: 'Abel', sans-serif;
+
+}
+.content h1{
+  margin-left: 0.6rem;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.content button{
+  border-radius: 20px;
+border: 1px solid lightblue;
+ background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+ padding: 10px 34px;
+ margin-left: 8rem;
+ margin-top: 1rem;
+ cursor: pointer;
+ }
+section{
+
+  background-image: url(images/Abract01.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-size: 60%;
+}
+section .part-1{
+  margin: 8rem 3rem;
+  text-align: center;
+  line-height: 1.5;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  height: 380px;
+}
+.part-1 h3{
+  margin-top: 1rem;
+  font-family: 'Abel', sans-serif;
+}
+.part-1 button{
+  border-radius: 20px;
+border: 1px solid lightblue;
+ background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+ padding: 10px 34px;
+ cursor: pointer;
+ margin-top: 0.5rem;
+}
+.part-1 p{
+  font-family: sans-serif;
+  color: grey;
+  margin-top: 0.3rem;
+}
